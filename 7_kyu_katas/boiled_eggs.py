@@ -26,7 +26,9 @@ import math
 def cooking_time(eggs):
     return 5 * (math.ceil(eggs / 8))
 
+
 if __name__ == "__main__":
+
     print(cooking_time(0))
     print(cooking_time(5))
     print(cooking_time(10))
